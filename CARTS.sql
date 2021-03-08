@@ -1,500 +1,502 @@
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (1, 178, 90, TO_DATE('2020-06-19 15:48:53', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (2, 11, 43, TO_DATE('2020-10-18 16:38:48', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (3, 173, 38, TO_DATE('2021-02-18 21:12:49', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (4, 181, 11, TO_DATE('2020-06-23 19:59:33', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (5, 97, 33, TO_DATE('2020-06-04 09:14:45', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (6, 68, 29, TO_DATE('2020-04-10 00:04:02', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (7, 101, 16, TO_DATE('2020-12-15 19:44:07', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (8, 165, 47, TO_DATE('2021-01-17 01:54:49', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (9, 53, 63, TO_DATE('2020-08-11 09:43:53', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (10, 177, 6, TO_DATE('2021-02-06 19:22:25', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (11, 79, 32, TO_DATE('2021-01-30 14:57:59', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (12, 128, 12, TO_DATE('2020-09-29 23:06:57', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (13, 123, 17, TO_DATE('2020-11-17 17:06:26', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (14, 34, 66, TO_DATE('2020-06-19 13:37:20', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (15, 131, 92, TO_DATE('2020-03-19 01:00:46', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (16, 179, 5, TO_DATE('2020-09-23 09:47:35', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (17, 85, 13, TO_DATE('2020-07-26 22:42:28', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (18, 125, 84, TO_DATE('2020-09-10 18:45:31', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (19, 86, 12, TO_DATE('2020-12-06 11:38:22', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (20, 108, 64, TO_DATE('2020-09-13 21:10:36', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (21, 156, 88, TO_DATE('2020-10-13 19:50:47', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (22, 47, 13, TO_DATE('2020-10-07 05:17:52', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (23, 182, 58, TO_DATE('2021-02-13 06:38:29', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (24, 155, 9, TO_DATE('2020-04-05 05:23:17', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (25, 10, 23, TO_DATE('2020-03-14 21:28:30', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (26, 60, 33, TO_DATE('2020-07-17 15:03:42', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (27, 151, 71, TO_DATE('2020-04-04 03:51:15', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (28, 81, 78, TO_DATE('2021-02-17 19:07:32', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (29, 45, 94, TO_DATE('2020-09-08 20:28:32', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (30, 139, 14, TO_DATE('2020-04-12 17:13:17', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (31, 160, 66, TO_DATE('2020-12-07 01:38:34', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (32, 168, 71, TO_DATE('2021-01-01 15:58:12', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (33, 45, 92, TO_DATE('2021-01-16 00:49:57', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (34, 161, 64, TO_DATE('2020-11-15 04:30:37', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (35, 59, 87, TO_DATE('2021-02-16 18:58:41', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (36, 154, 59, TO_DATE('2021-01-11 12:52:20', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (37, 86, 72, TO_DATE('2021-01-04 17:51:23', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (38, 28, 68, TO_DATE('2020-03-08 13:09:12', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (39, 93, 65, TO_DATE('2021-01-03 00:28:54', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (40, 173, 29, TO_DATE('2020-04-15 11:57:28', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (41, 58, 50, TO_DATE('2020-03-17 04:37:12', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (42, 81, 88, TO_DATE('2020-08-19 15:08:58', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (43, 145, 91, TO_DATE('2020-09-03 08:15:11', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (44, 153, 55, TO_DATE('2020-12-10 20:01:56', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (45, 134, 26, TO_DATE('2021-01-10 22:13:05', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (46, 80, 80, TO_DATE('2020-06-02 14:52:12', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (47, 5, 15, TO_DATE('2020-07-23 22:58:39', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (48, 26, 96, TO_DATE('2020-11-16 00:11:22', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (49, 136, 77, TO_DATE('2021-03-03 13:16:10', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (50, 163, 2, TO_DATE('2021-02-02 07:51:41', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (51, 95, 83, TO_DATE('2020-04-23 01:31:55', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (52, 109, 23, TO_DATE('2020-04-08 20:20:41', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (53, 16, 68, TO_DATE('2020-03-19 13:58:44', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (54, 126, 33, TO_DATE('2021-02-24 00:47:33', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (55, 70, 53, TO_DATE('2020-04-11 23:25:55', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (56, 160, 35, TO_DATE('2020-05-16 17:38:38', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (57, 153, 32, TO_DATE('2020-05-03 04:09:24', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (58, 145, 94, TO_DATE('2020-06-01 21:43:16', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (59, 64, 39, TO_DATE('2020-04-10 09:55:57', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (60, 18, 41, TO_DATE('2020-10-25 01:52:27', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (61, 32, 71, TO_DATE('2020-05-29 15:10:23', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (62, 151, 34, TO_DATE('2020-12-26 09:11:12', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (63, 159, 42, TO_DATE('2020-10-05 04:00:31', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (64, 81, 17, TO_DATE('2020-10-03 19:04:55', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (65, 118, 71, TO_DATE('2020-07-17 12:58:50', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (66, 120, 87, TO_DATE('2020-06-03 05:26:26', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (67, 130, 35, TO_DATE('2020-07-03 06:26:55', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (68, 6, 47, TO_DATE('2020-12-14 15:51:37', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (69, 99, 92, TO_DATE('2020-07-12 18:20:07', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (70, 95, 92, TO_DATE('2020-10-29 22:01:16', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (71, 135, 61, TO_DATE('2021-02-24 03:48:11', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (72, 183, 44, TO_DATE('2021-02-06 22:31:51', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (73, 178, 47, TO_DATE('2021-03-03 20:38:00', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (74, 20, 5, TO_DATE('2020-04-05 11:40:06', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (75, 140, 87, TO_DATE('2020-10-06 16:15:07', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (76, 2, 64, TO_DATE('2020-12-04 06:34:07', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (77, 74, 61, TO_DATE('2020-07-28 20:35:18', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (78, 19, 84, TO_DATE('2020-08-29 19:57:46', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (79, 177, 57, TO_DATE('2020-04-15 17:52:08', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (80, 174, 77, TO_DATE('2021-02-03 01:50:58', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (81, 184, 38, TO_DATE('2021-01-08 00:41:17', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (82, 16, 34, TO_DATE('2021-02-26 19:07:29', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (83, 41, 10, TO_DATE('2021-01-19 05:01:12', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (84, 138, 64, TO_DATE('2021-01-15 07:49:17', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (85, 53, 13, TO_DATE('2020-06-27 13:56:16', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (86, 12, 11, TO_DATE('2020-03-21 10:13:50', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (87, 14, 66, TO_DATE('2020-08-18 00:26:30', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (88, 38, 32, TO_DATE('2020-12-11 13:25:35', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (89, 94, 44, TO_DATE('2020-08-04 22:44:10', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (90, 183, 99, TO_DATE('2020-08-06 15:07:33', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (91, 39, 64, TO_DATE('2020-08-26 02:45:29', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (92, 164, 100, TO_DATE('2020-12-30 10:48:43', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (93, 34, 70, TO_DATE('2020-04-14 20:15:37', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (94, 134, 31, TO_DATE('2020-12-24 22:41:09', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (95, 177, 64, TO_DATE('2020-10-02 15:42:53', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (96, 94, 100, TO_DATE('2021-01-18 11:19:55', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (97, 35, 36, TO_DATE('2021-02-18 04:33:25', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (98, 68, 89, TO_DATE('2020-04-28 20:37:13', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (99, 175, 85, TO_DATE('2020-06-20 19:35:49', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (100, 136, 23, TO_DATE('2020-05-08 07:10:05', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (101, 155, 2, TO_DATE('2020-07-07 16:03:39', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (102, 123, 80, TO_DATE('2020-10-22 06:20:40', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (103, 72, 73, TO_DATE('2021-01-19 19:31:26', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (104, 144, 25, TO_DATE('2020-11-03 06:40:28', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (105, 176, 43, TO_DATE('2021-02-19 08:44:24', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (106, 112, 94, TO_DATE('2020-12-03 09:32:34', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (107, 73, 60, TO_DATE('2021-01-28 11:54:55', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (108, 128, 2, TO_DATE('2021-02-08 10:27:35', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (109, 85, 2, TO_DATE('2021-01-02 07:22:37', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (110, 117, 69, TO_DATE('2020-08-11 10:53:06', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (111, 78, 4, TO_DATE('2020-11-25 22:21:29', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (112, 85, 55, TO_DATE('2020-06-12 11:45:25', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (113, 90, 16, TO_DATE('2020-07-02 07:22:15', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (114, 49, 86, TO_DATE('2020-10-01 03:36:55', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (115, 138, 16, TO_DATE('2020-07-30 11:51:29', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (116, 52, 93, TO_DATE('2021-02-26 18:49:09', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (117, 95, 24, TO_DATE('2020-11-24 23:57:34', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (118, 148, 42, TO_DATE('2020-08-12 07:12:37', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (119, 69, 60, TO_DATE('2020-08-20 09:31:26', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (120, 87, 36, TO_DATE('2020-10-20 11:21:24', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (121, 48, 5, TO_DATE('2021-01-16 08:36:08', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (122, 75, 41, TO_DATE('2020-09-16 05:08:07', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (123, 31, 28, TO_DATE('2021-01-05 01:34:31', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (124, 142, 83, TO_DATE('2020-05-27 14:06:56', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (125, 77, 12, TO_DATE('2020-08-22 07:28:11', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (126, 148, 46, TO_DATE('2020-04-05 12:26:27', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (127, 139, 58, TO_DATE('2020-08-22 16:47:50', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (128, 144, 19, TO_DATE('2020-12-18 13:52:00', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (129, 136, 96, TO_DATE('2020-12-26 14:16:01', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (130, 141, 82, TO_DATE('2021-01-16 06:58:01', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (131, 167, 100, TO_DATE('2020-09-30 06:33:37', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (132, 166, 15, TO_DATE('2020-05-03 08:40:00', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (133, 153, 78, TO_DATE('2021-02-23 12:21:13', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (134, 119, 25, TO_DATE('2020-11-09 21:20:24', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (135, 1, 37, TO_DATE('2021-01-27 02:15:48', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (136, 50, 77, TO_DATE('2020-04-13 22:22:28', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (137, 45, 80, TO_DATE('2020-08-22 13:40:58', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (138, 73, 16, TO_DATE('2020-09-27 11:08:40', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (139, 95, 10, TO_DATE('2021-01-21 03:42:03', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (140, 43, 29, TO_DATE('2020-12-19 18:47:16', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (141, 14, 35, TO_DATE('2021-01-12 01:39:37', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (142, 14, 72, TO_DATE('2020-12-26 02:17:08', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (143, 168, 32, TO_DATE('2020-08-12 16:22:13', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (144, 106, 52, TO_DATE('2020-05-11 09:15:13', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (145, 65, 52, TO_DATE('2020-11-20 09:15:29', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (146, 52, 17, TO_DATE('2020-11-07 01:53:32', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (147, 11, 47, TO_DATE('2020-04-16 05:06:21', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (148, 55, 39, TO_DATE('2020-03-31 15:09:22', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (149, 111, 5, TO_DATE('2020-08-28 01:32:49', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (150, 37, 74, TO_DATE('2020-08-12 18:00:43', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (151, 9, 6, TO_DATE('2020-07-20 07:29:05', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (152, 163, 16, TO_DATE('2020-12-17 10:41:26', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (153, 36, 69, TO_DATE('2020-04-03 00:18:48', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (154, 131, 36, TO_DATE('2020-09-06 00:52:19', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (155, 101, 9, TO_DATE('2020-07-15 18:37:22', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (156, 4, 56, TO_DATE('2020-10-03 23:51:24', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (157, 1, 59, TO_DATE('2020-08-21 20:20:23', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (158, 143, 90, TO_DATE('2020-11-05 15:55:00', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (159, 4, 21, TO_DATE('2020-07-16 01:44:47', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (160, 161, 73, TO_DATE('2020-06-10 04:52:35', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (161, 125, 66, TO_DATE('2020-10-28 22:46:08', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (162, 18, 78, TO_DATE('2020-05-02 19:58:15', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (163, 58, 37, TO_DATE('2020-03-13 20:41:20', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (164, 92, 6, TO_DATE('2020-07-15 15:19:05', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (165, 174, 43, TO_DATE('2020-04-15 23:48:42', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (166, 121, 92, TO_DATE('2020-03-11 07:07:56', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (167, 137, 74, TO_DATE('2020-11-01 08:58:01', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (168, 175, 9, TO_DATE('2020-11-20 03:07:26', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (169, 69, 4, TO_DATE('2020-12-29 14:43:13', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (170, 89, 6, TO_DATE('2020-05-09 12:53:16', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (171, 22, 14, TO_DATE('2020-09-09 18:58:56', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (172, 68, 27, TO_DATE('2020-08-29 14:11:25', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (173, 83, 70, TO_DATE('2021-02-25 06:44:01', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (174, 98, 62, TO_DATE('2021-01-29 16:10:34', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (175, 56, 68, TO_DATE('2020-10-19 11:42:38', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (176, 169, 58, TO_DATE('2020-12-02 09:24:16', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (177, 130, 5, TO_DATE('2020-03-29 18:15:23', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (178, 182, 100, TO_DATE('2020-10-26 07:37:34', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (179, 53, 60, TO_DATE('2020-12-27 04:36:57', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (180, 84, 7, TO_DATE('2020-05-02 17:29:07', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (181, 118, 65, TO_DATE('2020-07-30 22:55:28', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (182, 27, 33, TO_DATE('2020-12-29 21:28:57', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (183, 183, 95, TO_DATE('2020-09-02 19:08:34', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (184, 82, 97, TO_DATE('2020-11-19 21:23:26', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (185, 43, 76, TO_DATE('2020-04-26 16:53:32', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (186, 38, 88, TO_DATE('2020-12-27 21:56:13', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (187, 144, 90, TO_DATE('2020-07-25 21:20:56', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (188, 183, 27, TO_DATE('2020-08-21 07:38:49', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (189, 122, 42, TO_DATE('2020-10-13 21:56:16', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (190, 56, 58, TO_DATE('2020-04-14 10:19:18', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (191, 57, 43, TO_DATE('2021-02-19 18:07:44', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (192, 93, 99, TO_DATE('2020-10-02 12:59:49', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (193, 168, 16, TO_DATE('2020-06-29 10:10:02', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (194, 168, 90, TO_DATE('2020-05-12 07:25:44', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (195, 88, 76, TO_DATE('2020-10-14 04:18:07', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (196, 58, 41, TO_DATE('2020-07-15 10:21:25', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (197, 20, 97, TO_DATE('2020-11-12 20:02:55', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (198, 173, 87, TO_DATE('2020-06-14 13:43:39', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (199, 56, 22, TO_DATE('2020-07-08 04:16:55', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (200, 17, 62, TO_DATE('2021-02-12 10:51:13', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (201, 77, 34, TO_DATE('2021-03-02 19:08:10', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (202, 52, 33, TO_DATE('2021-02-06 23:18:28', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (203, 74, 56, TO_DATE('2021-02-08 12:17:38', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (204, 13, 94, TO_DATE('2020-03-13 01:51:39', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (205, 106, 11, TO_DATE('2020-11-12 17:49:35', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (206, 136, 52, TO_DATE('2020-08-08 09:11:24', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (207, 121, 19, TO_DATE('2020-06-17 07:59:05', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (208, 158, 38, TO_DATE('2021-02-07 06:30:07', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (209, 64, 30, TO_DATE('2020-11-25 10:42:36', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (210, 47, 69, TO_DATE('2020-09-03 12:33:08', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (211, 124, 19, TO_DATE('2020-11-29 06:36:35', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (212, 151, 20, TO_DATE('2020-04-18 08:02:54', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (213, 136, 12, TO_DATE('2020-10-16 04:27:16', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (214, 77, 55, TO_DATE('2020-07-28 17:39:18', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (215, 57, 5, TO_DATE('2020-07-04 20:45:02', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (216, 80, 43, TO_DATE('2020-06-13 14:28:54', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (217, 102, 76, TO_DATE('2020-04-08 20:49:53', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (218, 44, 62, TO_DATE('2020-05-04 03:56:02', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (219, 159, 45, TO_DATE('2020-10-24 06:36:09', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (220, 81, 57, TO_DATE('2021-02-08 01:24:06', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (221, 177, 61, TO_DATE('2020-12-02 23:29:56', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (222, 102, 59, TO_DATE('2020-07-26 08:21:53', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (223, 124, 99, TO_DATE('2020-12-04 11:42:59', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (224, 55, 82, TO_DATE('2020-05-28 18:02:53', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (225, 67, 96, TO_DATE('2020-08-01 15:44:33', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (226, 65, 32, TO_DATE('2020-09-02 08:23:12', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (227, 99, 48, TO_DATE('2020-09-08 11:47:46', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (228, 120, 91, TO_DATE('2020-04-13 21:02:19', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (229, 87, 91, TO_DATE('2021-02-12 01:19:45', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (230, 96, 41, TO_DATE('2020-03-21 10:13:16', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (231, 56, 77, TO_DATE('2020-06-06 20:27:41', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (232, 130, 86, TO_DATE('2020-06-29 21:10:08', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (233, 27, 3, TO_DATE('2020-07-25 20:18:25', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (234, 157, 84, TO_DATE('2020-11-27 04:36:03', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (235, 118, 45, TO_DATE('2020-03-13 03:04:47', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (236, 181, 40, TO_DATE('2020-10-06 21:51:20', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (237, 89, 28, TO_DATE('2020-12-28 23:30:11', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (238, 84, 91, TO_DATE('2020-06-04 01:28:11', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (239, 81, 37, TO_DATE('2021-01-01 08:37:35', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (240, 57, 61, TO_DATE('2020-11-05 07:52:07', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (241, 7, 96, TO_DATE('2020-04-18 05:07:41', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (242, 136, 10, TO_DATE('2020-06-17 05:48:05', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (243, 160, 37, TO_DATE('2020-10-25 19:55:06', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (244, 99, 99, TO_DATE('2020-08-10 05:35:28', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (245, 136, 28, TO_DATE('2021-02-17 17:50:18', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (246, 152, 82, TO_DATE('2021-01-09 09:43:07', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (247, 26, 46, TO_DATE('2020-03-10 22:45:00', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (248, 48, 45, TO_DATE('2020-04-06 03:33:09', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (249, 180, 9, TO_DATE('2020-05-10 14:54:14', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (250, 41, 46, TO_DATE('2020-04-04 06:21:35', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (251, 181, 92, TO_DATE('2020-06-30 15:53:44', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (252, 62, 16, TO_DATE('2020-07-24 00:54:33', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (253, 161, 4, TO_DATE('2020-07-31 09:04:53', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (254, 26, 16, TO_DATE('2020-08-31 03:09:12', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (255, 7, 49, TO_DATE('2020-07-29 11:28:37', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (256, 123, 91, TO_DATE('2020-11-13 15:16:19', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (257, 178, 12, TO_DATE('2020-03-23 14:40:01', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (258, 52, 38, TO_DATE('2020-09-17 07:03:08', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (259, 109, 94, TO_DATE('2020-09-08 12:22:07', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (260, 59, 87, TO_DATE('2020-12-10 16:54:20', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (261, 51, 41, TO_DATE('2020-09-12 00:37:22', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (262, 166, 17, TO_DATE('2020-09-23 20:35:26', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (263, 81, 19, TO_DATE('2020-05-03 20:11:44', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (264, 29, 45, TO_DATE('2020-03-11 16:19:48', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (265, 177, 94, TO_DATE('2021-01-28 07:52:38', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (266, 2, 84, TO_DATE('2020-06-19 11:20:02', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (267, 42, 84, TO_DATE('2021-03-06 10:28:41', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (268, 155, 60, TO_DATE('2020-04-07 11:50:48', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (269, 181, 78, TO_DATE('2021-02-26 03:05:56', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (270, 39, 99, TO_DATE('2020-05-28 04:56:33', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (271, 36, 37, TO_DATE('2020-06-06 23:13:54', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (272, 118, 8, TO_DATE('2021-01-25 21:18:26', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (273, 140, 54, TO_DATE('2020-05-02 00:24:21', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (274, 125, 13, TO_DATE('2020-12-18 12:58:53', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (275, 176, 43, TO_DATE('2020-06-07 03:55:48', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (276, 150, 37, TO_DATE('2021-01-22 22:28:37', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (277, 38, 67, TO_DATE('2020-08-11 19:17:35', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (278, 118, 42, TO_DATE('2020-07-29 17:49:08', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (279, 110, 54, TO_DATE('2020-06-28 14:19:53', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (280, 175, 68, TO_DATE('2020-06-18 12:45:56', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (281, 9, 70, TO_DATE('2020-09-15 14:58:49', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (282, 93, 44, TO_DATE('2020-09-17 19:59:28', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (283, 84, 53, TO_DATE('2020-04-16 04:14:00', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (284, 128, 91, TO_DATE('2021-01-11 19:20:13', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (285, 87, 7, TO_DATE('2020-11-25 17:07:25', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (286, 76, 49, TO_DATE('2020-07-26 22:09:13', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (287, 21, 51, TO_DATE('2021-03-06 12:17:06', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (288, 166, 61, TO_DATE('2020-05-08 20:25:08', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (289, 167, 38, TO_DATE('2020-04-18 11:39:03', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (290, 46, 9, TO_DATE('2021-02-04 10:45:50', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (291, 38, 47, TO_DATE('2020-04-11 14:43:51', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (292, 53, 97, TO_DATE('2020-12-04 03:53:13', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (293, 62, 53, TO_DATE('2020-10-15 13:06:39', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (294, 61, 85, TO_DATE('2020-05-17 14:56:26', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (295, 82, 10, TO_DATE('2020-09-21 04:58:13', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (296, 7, 91, TO_DATE('2020-03-21 12:08:00', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (297, 68, 81, TO_DATE('2020-11-20 14:34:13', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (298, 106, 52, TO_DATE('2020-08-01 23:49:24', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (299, 130, 75, TO_DATE('2020-08-19 19:49:10', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (300, 165, 6, TO_DATE('2020-10-25 18:54:55', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (301, 184, 23, TO_DATE('2020-04-02 02:02:51', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (302, 176, 5, TO_DATE('2021-02-18 17:48:25', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (303, 154, 58, TO_DATE('2020-03-28 02:47:11', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (304, 44, 86, TO_DATE('2020-11-16 12:38:06', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (305, 37, 1, TO_DATE('2020-04-26 03:59:40', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (306, 172, 92, TO_DATE('2020-05-12 17:57:13', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (307, 35, 56, TO_DATE('2020-11-09 23:07:12', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (308, 33, 31, TO_DATE('2020-08-29 10:20:31', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (309, 140, 68, TO_DATE('2021-02-16 12:56:02', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (310, 83, 60, TO_DATE('2021-03-02 16:32:42', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (311, 85, 80, TO_DATE('2021-02-02 14:32:23', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (312, 104, 54, TO_DATE('2020-08-28 16:15:49', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (313, 159, 28, TO_DATE('2020-05-16 12:41:11', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (314, 127, 25, TO_DATE('2020-05-11 08:33:11', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (315, 164, 45, TO_DATE('2020-10-21 19:45:17', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (316, 138, 25, TO_DATE('2020-11-30 11:41:52', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (317, 161, 97, TO_DATE('2020-05-03 18:58:07', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (318, 23, 82, TO_DATE('2020-10-13 14:04:51', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (319, 38, 49, TO_DATE('2020-04-14 04:24:57', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (320, 171, 31, TO_DATE('2020-04-17 10:54:38', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (321, 141, 99, TO_DATE('2021-02-19 20:50:51', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (322, 132, 22, TO_DATE('2020-06-14 05:16:17', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (323, 67, 82, TO_DATE('2020-11-13 03:29:45', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (324, 26, 66, TO_DATE('2020-10-04 20:47:07', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (325, 81, 16, TO_DATE('2020-10-30 00:42:51', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (326, 53, 99, TO_DATE('2020-03-23 00:31:55', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (327, 79, 14, TO_DATE('2020-12-13 01:35:16', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (328, 88, 8, TO_DATE('2020-10-09 03:41:08', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (329, 90, 40, TO_DATE('2020-07-04 01:36:29', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (330, 19, 30, TO_DATE('2020-04-18 23:39:40', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (331, 33, 53, TO_DATE('2020-10-25 13:29:36', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (332, 135, 38, TO_DATE('2021-02-15 19:24:33', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (333, 163, 86, TO_DATE('2020-12-30 02:29:35', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (334, 113, 90, TO_DATE('2020-04-29 20:54:58', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (335, 167, 18, TO_DATE('2020-11-04 06:11:42', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (336, 62, 97, TO_DATE('2020-07-23 17:17:59', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (337, 38, 9, TO_DATE('2020-07-06 01:18:23', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (338, 75, 63, TO_DATE('2020-10-22 15:45:02', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (339, 16, 72, TO_DATE('2020-06-12 20:20:11', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (340, 88, 77, TO_DATE('2020-08-22 03:17:48', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (341, 24, 13, TO_DATE('2020-08-14 16:59:18', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (342, 43, 24, TO_DATE('2021-02-17 05:47:52', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (343, 115, 54, TO_DATE('2021-01-12 23:25:48', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (344, 172, 3, TO_DATE('2020-10-29 22:40:08', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (345, 90, 58, TO_DATE('2020-07-06 18:36:24', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (346, 126, 68, TO_DATE('2020-12-18 12:52:23', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (347, 134, 76, TO_DATE('2021-02-10 20:36:09', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (348, 135, 45, TO_DATE('2020-05-13 17:36:29', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (349, 183, 28, TO_DATE('2020-12-01 23:12:43', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (350, 174, 42, TO_DATE('2020-11-01 16:33:58', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (351, 122, 7, TO_DATE('2020-09-08 02:01:44', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (352, 152, 14, TO_DATE('2021-01-11 22:22:01', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (353, 147, 70, TO_DATE('2021-02-05 07:48:53', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (354, 122, 51, TO_DATE('2020-04-23 17:32:39', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (355, 33, 95, TO_DATE('2020-07-16 09:50:37', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (356, 106, 61, TO_DATE('2020-09-11 02:38:49', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (357, 13, 23, TO_DATE('2020-06-05 23:46:15', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (358, 110, 67, TO_DATE('2020-12-03 01:09:40', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (359, 80, 68, TO_DATE('2020-09-03 09:56:44', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (360, 101, 9, TO_DATE('2021-02-26 11:31:48', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (361, 139, 74, TO_DATE('2020-09-27 16:02:13', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (362, 22, 48, TO_DATE('2020-04-04 21:12:32', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (363, 160, 70, TO_DATE('2020-08-11 09:38:59', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (364, 79, 20, TO_DATE('2020-12-12 00:14:09', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (365, 164, 98, TO_DATE('2020-06-29 06:58:16', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (366, 39, 21, TO_DATE('2020-08-12 03:01:19', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (367, 93, 94, TO_DATE('2021-02-11 18:27:21', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (368, 83, 42, TO_DATE('2021-01-08 13:36:12', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (369, 3, 98, TO_DATE('2020-12-23 19:05:16', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (370, 165, 15, TO_DATE('2020-06-24 11:01:48', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (371, 172, 53, TO_DATE('2021-02-18 02:32:21', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (372, 112, 81, TO_DATE('2021-02-22 11:18:50', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (373, 74, 12, TO_DATE('2021-01-14 14:46:32', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (374, 71, 23, TO_DATE('2020-05-26 18:34:05', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (375, 181, 40, TO_DATE('2020-11-26 05:27:07', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (376, 87, 42, TO_DATE('2020-10-23 21:24:57', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (377, 156, 58, TO_DATE('2020-06-04 01:06:41', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (378, 174, 99, TO_DATE('2020-03-24 03:23:47', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (379, 73, 34, TO_DATE('2020-05-29 07:40:33', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (380, 50, 23, TO_DATE('2020-03-20 23:51:39', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (381, 27, 80, TO_DATE('2020-03-31 07:21:32', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (382, 125, 21, TO_DATE('2020-05-31 20:24:45', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (383, 2, 28, TO_DATE('2020-11-27 08:48:13', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (384, 43, 44, TO_DATE('2020-05-19 09:46:38', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (385, 87, 35, TO_DATE('2020-04-28 05:38:29', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (386, 53, 93, TO_DATE('2020-05-22 22:40:53', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (387, 133, 98, TO_DATE('2020-11-10 20:16:10', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (388, 184, 48, TO_DATE('2021-02-11 13:48:17', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (389, 41, 79, TO_DATE('2020-08-01 21:00:20', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (390, 91, 33, TO_DATE('2020-10-24 04:24:17', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (391, 80, 2, TO_DATE('2021-01-23 17:33:12', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (392, 69, 28, TO_DATE('2021-01-16 15:30:58', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (393, 162, 47, TO_DATE('2021-02-07 14:17:16', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (394, 181, 7, TO_DATE('2020-07-06 07:30:45', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (395, 159, 5, TO_DATE('2021-02-06 05:20:07', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (396, 175, 19, TO_DATE('2020-09-13 10:34:34', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (397, 103, 78, TO_DATE('2021-02-20 17:25:40', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (398, 152, 70, TO_DATE('2020-07-25 13:27:39', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (399, 42, 28, TO_DATE('2020-09-28 04:44:54', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (400, 109, 61, TO_DATE('2020-11-19 03:29:10', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (401, 82, 45, TO_DATE('2020-09-08 00:25:44', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (402, 49, 7, TO_DATE('2020-09-03 22:29:35', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (403, 23, 75, TO_DATE('2020-09-06 03:22:42', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (404, 172, 84, TO_DATE('2021-02-27 06:22:45', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (405, 138, 84, TO_DATE('2020-11-21 15:51:03', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (406, 82, 57, TO_DATE('2021-01-06 12:12:12', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (407, 144, 4, TO_DATE('2020-08-14 05:11:30', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (408, 114, 5, TO_DATE('2020-12-05 03:26:00', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (409, 129, 80, TO_DATE('2020-04-13 16:38:13', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (410, 83, 74, TO_DATE('2020-06-20 14:23:12', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (411, 129, 14, TO_DATE('2021-02-13 10:35:23', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (412, 133, 13, TO_DATE('2020-06-21 13:06:15', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (413, 101, 10, TO_DATE('2020-07-21 09:11:23', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (414, 6, 85, TO_DATE('2021-01-24 19:46:53', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (415, 110, 8, TO_DATE('2021-02-25 09:45:24', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (416, 10, 42, TO_DATE('2021-03-01 23:22:30', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (417, 84, 39, TO_DATE('2020-05-11 02:19:01', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (418, 123, 74, TO_DATE('2021-03-02 18:56:46', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (419, 119, 9, TO_DATE('2020-08-11 02:59:45', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (420, 176, 67, TO_DATE('2020-06-08 17:22:19', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (421, 95, 37, TO_DATE('2021-02-18 15:55:44', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (422, 30, 86, TO_DATE('2020-11-16 00:49:57', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (423, 91, 15, TO_DATE('2020-07-25 03:21:40', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (424, 87, 85, TO_DATE('2020-11-23 11:16:30', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (425, 157, 61, TO_DATE('2021-01-28 02:33:38', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (426, 108, 16, TO_DATE('2020-10-21 08:26:49', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (427, 127, 26, TO_DATE('2020-09-23 10:44:27', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (428, 22, 85, TO_DATE('2020-05-10 04:01:02', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (429, 144, 13, TO_DATE('2020-04-10 23:26:26', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (430, 82, 52, TO_DATE('2020-08-20 06:23:10', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (431, 87, 24, TO_DATE('2020-08-17 23:07:01', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (432, 136, 82, TO_DATE('2020-05-19 17:31:21', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (433, 7, 86, TO_DATE('2020-11-11 23:05:34', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (434, 125, 23, TO_DATE('2020-10-27 18:51:47', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (435, 22, 21, TO_DATE('2020-08-27 07:28:53', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (436, 22, 89, TO_DATE('2020-09-23 00:25:36', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (437, 47, 57, TO_DATE('2020-12-02 13:33:00', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (438, 114, 81, TO_DATE('2020-07-12 01:16:43', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (439, 96, 29, TO_DATE('2020-10-15 06:36:29', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (440, 30, 77, TO_DATE('2020-11-24 11:33:24', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (441, 59, 22, TO_DATE('2020-08-08 05:16:46', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (442, 15, 23, TO_DATE('2020-08-15 11:26:22', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (443, 41, 4, TO_DATE('2020-08-15 03:28:03', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (444, 18, 20, TO_DATE('2020-10-08 04:01:04', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (445, 104, 56, TO_DATE('2020-04-18 11:17:26', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (446, 130, 32, TO_DATE('2020-06-06 18:16:27', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (447, 108, 27, TO_DATE('2020-12-19 18:47:35', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (448, 71, 15, TO_DATE('2020-04-03 16:24:30', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (449, 21, 64, TO_DATE('2020-04-15 12:18:11', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (450, 27, 69, TO_DATE('2020-12-09 06:16:13', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (451, 126, 13, TO_DATE('2020-08-17 12:48:30', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (452, 75, 44, TO_DATE('2020-05-01 23:23:32', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (453, 76, 60, TO_DATE('2020-10-17 23:20:38', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (454, 132, 93, TO_DATE('2020-11-25 11:19:08', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (455, 166, 20, TO_DATE('2020-08-02 04:42:07', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (456, 38, 67, TO_DATE('2020-10-18 01:11:07', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (457, 64, 89, TO_DATE('2020-09-08 23:44:34', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (458, 99, 97, TO_DATE('2020-03-29 22:37:31', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (459, 84, 28, TO_DATE('2021-01-09 00:07:27', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (460, 103, 82, TO_DATE('2020-09-28 18:37:48', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (461, 51, 37, TO_DATE('2020-11-30 15:55:17', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (462, 167, 89, TO_DATE('2020-10-26 14:12:31', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (463, 171, 59, TO_DATE('2020-07-30 05:28:40', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (464, 117, 93, TO_DATE('2020-09-07 05:28:15', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (465, 54, 30, TO_DATE('2020-04-05 15:30:55', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (466, 40, 40, TO_DATE('2020-07-03 18:04:10', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (467, 144, 69, TO_DATE('2020-07-18 14:10:27', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (468, 95, 99, TO_DATE('2020-06-25 18:33:01', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (469, 54, 80, TO_DATE('2020-12-26 05:33:15', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (470, 136, 20, TO_DATE('2020-07-21 04:22:31', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (471, 153, 47, TO_DATE('2020-07-31 01:04:04', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (472, 9, 89, TO_DATE('2020-10-16 21:16:10', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (473, 182, 65, TO_DATE('2021-02-26 18:36:19', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (474, 47, 24, TO_DATE('2020-10-02 22:33:49', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (475, 103, 66, TO_DATE('2021-02-22 23:37:40', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (476, 15, 64, TO_DATE('2020-03-15 07:11:45', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (477, 10, 99, TO_DATE('2020-12-12 01:16:44', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (478, 170, 79, TO_DATE('2020-11-23 20:41:55', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (479, 110, 96, TO_DATE('2021-01-04 19:23:06', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (480, 3, 96, TO_DATE('2021-01-19 09:07:00', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (481, 6, 21, TO_DATE('2020-03-26 17:02:26', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (482, 184, 8, TO_DATE('2020-11-25 19:38:45', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (483, 129, 74, TO_DATE('2020-09-29 01:50:40', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (484, 77, 66, TO_DATE('2020-10-08 22:02:55', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (485, 24, 26, TO_DATE('2020-10-20 20:52:01', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (486, 137, 3, TO_DATE('2020-03-12 03:48:45', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (487, 134, 45, TO_DATE('2020-05-08 19:38:15', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (488, 151, 10, TO_DATE('2020-12-19 21:22:05', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (489, 106, 16, TO_DATE('2020-10-07 01:41:07', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (490, 139, 47, TO_DATE('2020-05-05 20:57:08', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (491, 125, 6, TO_DATE('2020-08-15 17:39:59', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (492, 125, 13, TO_DATE('2020-03-31 00:05:39', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (493, 60, 75, TO_DATE('2020-03-09 20:17:08', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (494, 7, 63, TO_DATE('2021-01-04 08:36:16', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (495, 146, 64, TO_DATE('2021-03-04 04:28:41', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (496, 138, 97, TO_DATE('2020-06-27 11:39:00', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (497, 15, 96, TO_DATE('2020-12-02 11:21:08', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (498, 125, 67, TO_DATE('2020-12-03 18:15:43', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (499, 82, 10, TO_DATE('2020-07-18 02:59:30', 'yyyy-mm-dd hh24:mi:ss'));
-insert into CARTS (cart_id, product_id, customer_id, created_at) values (500, 152, 9, TO_DATE('2020-10-12 06:18:07', 'yyyy-mm-dd hh24:mi:ss'));
+insert all
+    into CARTS values (1, 178, 90, TO_DATE('2020-06-19 15:48:53', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (2, 11, 43, TO_DATE('2020-10-18 16:38:48', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (3, 173, 38, TO_DATE('2021-02-18 21:12:49', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (4, 181, 11, TO_DATE('2020-06-23 19:59:33', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (5, 97, 33, TO_DATE('2020-06-04 09:14:45', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (6, 68, 29, TO_DATE('2020-04-10 00:04:02', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (7, 101, 16, TO_DATE('2020-12-15 19:44:07', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (8, 165, 47, TO_DATE('2021-01-17 01:54:49', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (9, 53, 63, TO_DATE('2020-08-11 09:43:53', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (10, 177, 6, TO_DATE('2021-02-06 19:22:25', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (11, 79, 32, TO_DATE('2021-01-30 14:57:59', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (12, 128, 12, TO_DATE('2020-09-29 23:06:57', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (13, 123, 17, TO_DATE('2020-11-17 17:06:26', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (14, 34, 66, TO_DATE('2020-06-19 13:37:20', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (15, 131, 92, TO_DATE('2020-03-19 01:00:46', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (16, 179, 5, TO_DATE('2020-09-23 09:47:35', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (17, 85, 13, TO_DATE('2020-07-26 22:42:28', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (18, 125, 84, TO_DATE('2020-09-10 18:45:31', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (19, 86, 12, TO_DATE('2020-12-06 11:38:22', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (20, 108, 64, TO_DATE('2020-09-13 21:10:36', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (21, 156, 88, TO_DATE('2020-10-13 19:50:47', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (22, 47, 13, TO_DATE('2020-10-07 05:17:52', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (23, 182, 58, TO_DATE('2021-02-13 06:38:29', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (24, 155, 9, TO_DATE('2020-04-05 05:23:17', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (25, 10, 23, TO_DATE('2020-03-14 21:28:30', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (26, 60, 33, TO_DATE('2020-07-17 15:03:42', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (27, 151, 71, TO_DATE('2020-04-04 03:51:15', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (28, 81, 78, TO_DATE('2021-02-17 19:07:32', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (29, 45, 94, TO_DATE('2020-09-08 20:28:32', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (30, 139, 14, TO_DATE('2020-04-12 17:13:17', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (31, 160, 66, TO_DATE('2020-12-07 01:38:34', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (32, 168, 71, TO_DATE('2021-01-01 15:58:12', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (33, 45, 92, TO_DATE('2021-01-16 00:49:57', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (34, 161, 64, TO_DATE('2020-11-15 04:30:37', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (35, 59, 87, TO_DATE('2021-02-16 18:58:41', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (36, 154, 59, TO_DATE('2021-01-11 12:52:20', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (37, 86, 72, TO_DATE('2021-01-04 17:51:23', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (38, 28, 68, TO_DATE('2020-03-08 13:09:12', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (39, 93, 65, TO_DATE('2021-01-03 00:28:54', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (40, 173, 29, TO_DATE('2020-04-15 11:57:28', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (41, 58, 50, TO_DATE('2020-03-17 04:37:12', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (42, 81, 88, TO_DATE('2020-08-19 15:08:58', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (43, 145, 91, TO_DATE('2020-09-03 08:15:11', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (44, 153, 55, TO_DATE('2020-12-10 20:01:56', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (45, 134, 26, TO_DATE('2021-01-10 22:13:05', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (46, 80, 80, TO_DATE('2020-06-02 14:52:12', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (47, 5, 15, TO_DATE('2020-07-23 22:58:39', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (48, 26, 96, TO_DATE('2020-11-16 00:11:22', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (49, 136, 77, TO_DATE('2021-03-03 13:16:10', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (50, 163, 2, TO_DATE('2021-02-02 07:51:41', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (51, 95, 83, TO_DATE('2020-04-23 01:31:55', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (52, 109, 23, TO_DATE('2020-04-08 20:20:41', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (53, 16, 68, TO_DATE('2020-03-19 13:58:44', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (54, 126, 33, TO_DATE('2021-02-24 00:47:33', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (55, 70, 53, TO_DATE('2020-04-11 23:25:55', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (56, 160, 35, TO_DATE('2020-05-16 17:38:38', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (57, 153, 32, TO_DATE('2020-05-03 04:09:24', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (58, 145, 94, TO_DATE('2020-06-01 21:43:16', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (59, 64, 39, TO_DATE('2020-04-10 09:55:57', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (60, 18, 41, TO_DATE('2020-10-25 01:52:27', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (61, 32, 71, TO_DATE('2020-05-29 15:10:23', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (62, 151, 34, TO_DATE('2020-12-26 09:11:12', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (63, 159, 42, TO_DATE('2020-10-05 04:00:31', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (64, 81, 17, TO_DATE('2020-10-03 19:04:55', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (65, 118, 71, TO_DATE('2020-07-17 12:58:50', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (66, 120, 87, TO_DATE('2020-06-03 05:26:26', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (67, 130, 35, TO_DATE('2020-07-03 06:26:55', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (68, 6, 47, TO_DATE('2020-12-14 15:51:37', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (69, 99, 92, TO_DATE('2020-07-12 18:20:07', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (70, 95, 92, TO_DATE('2020-10-29 22:01:16', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (71, 135, 61, TO_DATE('2021-02-24 03:48:11', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (72, 183, 44, TO_DATE('2021-02-06 22:31:51', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (73, 178, 47, TO_DATE('2021-03-03 20:38:00', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (74, 20, 5, TO_DATE('2020-04-05 11:40:06', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (75, 140, 87, TO_DATE('2020-10-06 16:15:07', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (76, 2, 64, TO_DATE('2020-12-04 06:34:07', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (77, 74, 61, TO_DATE('2020-07-28 20:35:18', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (78, 19, 84, TO_DATE('2020-08-29 19:57:46', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (79, 177, 57, TO_DATE('2020-04-15 17:52:08', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (80, 174, 77, TO_DATE('2021-02-03 01:50:58', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (81, 184, 38, TO_DATE('2021-01-08 00:41:17', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (82, 16, 34, TO_DATE('2021-02-26 19:07:29', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (83, 41, 10, TO_DATE('2021-01-19 05:01:12', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (84, 138, 64, TO_DATE('2021-01-15 07:49:17', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (85, 53, 13, TO_DATE('2020-06-27 13:56:16', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (86, 12, 11, TO_DATE('2020-03-21 10:13:50', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (87, 14, 66, TO_DATE('2020-08-18 00:26:30', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (88, 38, 32, TO_DATE('2020-12-11 13:25:35', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (89, 94, 44, TO_DATE('2020-08-04 22:44:10', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (90, 183, 99, TO_DATE('2020-08-06 15:07:33', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (91, 39, 64, TO_DATE('2020-08-26 02:45:29', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (92, 164, 100, TO_DATE('2020-12-30 10:48:43', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (93, 34, 70, TO_DATE('2020-04-14 20:15:37', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (94, 134, 31, TO_DATE('2020-12-24 22:41:09', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (95, 177, 64, TO_DATE('2020-10-02 15:42:53', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (96, 94, 100, TO_DATE('2021-01-18 11:19:55', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (97, 35, 36, TO_DATE('2021-02-18 04:33:25', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (98, 68, 89, TO_DATE('2020-04-28 20:37:13', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (99, 175, 85, TO_DATE('2020-06-20 19:35:49', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (100, 136, 23, TO_DATE('2020-05-08 07:10:05', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (101, 155, 2, TO_DATE('2020-07-07 16:03:39', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (102, 123, 80, TO_DATE('2020-10-22 06:20:40', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (103, 72, 73, TO_DATE('2021-01-19 19:31:26', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (104, 144, 25, TO_DATE('2020-11-03 06:40:28', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (105, 176, 43, TO_DATE('2021-02-19 08:44:24', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (106, 112, 94, TO_DATE('2020-12-03 09:32:34', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (107, 73, 60, TO_DATE('2021-01-28 11:54:55', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (108, 128, 2, TO_DATE('2021-02-08 10:27:35', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (109, 85, 2, TO_DATE('2021-01-02 07:22:37', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (110, 117, 69, TO_DATE('2020-08-11 10:53:06', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (111, 78, 4, TO_DATE('2020-11-25 22:21:29', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (112, 85, 55, TO_DATE('2020-06-12 11:45:25', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (113, 90, 16, TO_DATE('2020-07-02 07:22:15', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (114, 49, 86, TO_DATE('2020-10-01 03:36:55', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (115, 138, 16, TO_DATE('2020-07-30 11:51:29', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (116, 52, 93, TO_DATE('2021-02-26 18:49:09', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (117, 95, 24, TO_DATE('2020-11-24 23:57:34', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (118, 148, 42, TO_DATE('2020-08-12 07:12:37', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (119, 69, 60, TO_DATE('2020-08-20 09:31:26', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (120, 87, 36, TO_DATE('2020-10-20 11:21:24', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (121, 48, 5, TO_DATE('2021-01-16 08:36:08', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (122, 75, 41, TO_DATE('2020-09-16 05:08:07', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (123, 31, 28, TO_DATE('2021-01-05 01:34:31', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (124, 142, 83, TO_DATE('2020-05-27 14:06:56', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (125, 77, 12, TO_DATE('2020-08-22 07:28:11', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (126, 148, 46, TO_DATE('2020-04-05 12:26:27', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (127, 139, 58, TO_DATE('2020-08-22 16:47:50', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (128, 144, 19, TO_DATE('2020-12-18 13:52:00', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (129, 136, 96, TO_DATE('2020-12-26 14:16:01', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (130, 141, 82, TO_DATE('2021-01-16 06:58:01', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (131, 167, 100, TO_DATE('2020-09-30 06:33:37', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (132, 166, 15, TO_DATE('2020-05-03 08:40:00', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (133, 153, 78, TO_DATE('2021-02-23 12:21:13', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (134, 119, 25, TO_DATE('2020-11-09 21:20:24', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (135, 1, 37, TO_DATE('2021-01-27 02:15:48', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (136, 50, 77, TO_DATE('2020-04-13 22:22:28', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (137, 45, 80, TO_DATE('2020-08-22 13:40:58', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (138, 73, 16, TO_DATE('2020-09-27 11:08:40', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (139, 95, 10, TO_DATE('2021-01-21 03:42:03', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (140, 43, 29, TO_DATE('2020-12-19 18:47:16', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (141, 14, 35, TO_DATE('2021-01-12 01:39:37', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (142, 14, 72, TO_DATE('2020-12-26 02:17:08', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (143, 168, 32, TO_DATE('2020-08-12 16:22:13', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (144, 106, 52, TO_DATE('2020-05-11 09:15:13', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (145, 65, 52, TO_DATE('2020-11-20 09:15:29', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (146, 52, 17, TO_DATE('2020-11-07 01:53:32', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (147, 11, 47, TO_DATE('2020-04-16 05:06:21', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (148, 55, 39, TO_DATE('2020-03-31 15:09:22', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (149, 111, 5, TO_DATE('2020-08-28 01:32:49', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (150, 37, 74, TO_DATE('2020-08-12 18:00:43', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (151, 9, 6, TO_DATE('2020-07-20 07:29:05', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (152, 163, 16, TO_DATE('2020-12-17 10:41:26', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (153, 36, 69, TO_DATE('2020-04-03 00:18:48', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (154, 131, 36, TO_DATE('2020-09-06 00:52:19', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (155, 101, 9, TO_DATE('2020-07-15 18:37:22', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (156, 4, 56, TO_DATE('2020-10-03 23:51:24', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (157, 1, 59, TO_DATE('2020-08-21 20:20:23', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (158, 143, 90, TO_DATE('2020-11-05 15:55:00', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (159, 4, 21, TO_DATE('2020-07-16 01:44:47', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (160, 161, 73, TO_DATE('2020-06-10 04:52:35', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (161, 125, 66, TO_DATE('2020-10-28 22:46:08', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (162, 18, 78, TO_DATE('2020-05-02 19:58:15', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (163, 58, 37, TO_DATE('2020-03-13 20:41:20', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (164, 92, 6, TO_DATE('2020-07-15 15:19:05', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (165, 174, 43, TO_DATE('2020-04-15 23:48:42', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (166, 121, 92, TO_DATE('2020-03-11 07:07:56', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (167, 137, 74, TO_DATE('2020-11-01 08:58:01', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (168, 175, 9, TO_DATE('2020-11-20 03:07:26', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (169, 69, 4, TO_DATE('2020-12-29 14:43:13', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (170, 89, 6, TO_DATE('2020-05-09 12:53:16', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (171, 22, 14, TO_DATE('2020-09-09 18:58:56', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (172, 68, 27, TO_DATE('2020-08-29 14:11:25', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (173, 83, 70, TO_DATE('2021-02-25 06:44:01', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (174, 98, 62, TO_DATE('2021-01-29 16:10:34', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (175, 56, 68, TO_DATE('2020-10-19 11:42:38', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (176, 169, 58, TO_DATE('2020-12-02 09:24:16', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (177, 130, 5, TO_DATE('2020-03-29 18:15:23', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (178, 182, 100, TO_DATE('2020-10-26 07:37:34', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (179, 53, 60, TO_DATE('2020-12-27 04:36:57', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (180, 84, 7, TO_DATE('2020-05-02 17:29:07', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (181, 118, 65, TO_DATE('2020-07-30 22:55:28', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (182, 27, 33, TO_DATE('2020-12-29 21:28:57', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (183, 183, 95, TO_DATE('2020-09-02 19:08:34', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (184, 82, 97, TO_DATE('2020-11-19 21:23:26', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (185, 43, 76, TO_DATE('2020-04-26 16:53:32', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (186, 38, 88, TO_DATE('2020-12-27 21:56:13', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (187, 144, 90, TO_DATE('2020-07-25 21:20:56', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (188, 183, 27, TO_DATE('2020-08-21 07:38:49', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (189, 122, 42, TO_DATE('2020-10-13 21:56:16', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (190, 56, 58, TO_DATE('2020-04-14 10:19:18', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (191, 57, 43, TO_DATE('2021-02-19 18:07:44', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (192, 93, 99, TO_DATE('2020-10-02 12:59:49', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (193, 168, 16, TO_DATE('2020-06-29 10:10:02', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (194, 168, 90, TO_DATE('2020-05-12 07:25:44', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (195, 88, 76, TO_DATE('2020-10-14 04:18:07', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (196, 58, 41, TO_DATE('2020-07-15 10:21:25', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (197, 20, 97, TO_DATE('2020-11-12 20:02:55', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (198, 173, 87, TO_DATE('2020-06-14 13:43:39', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (199, 56, 22, TO_DATE('2020-07-08 04:16:55', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (200, 17, 62, TO_DATE('2021-02-12 10:51:13', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (201, 77, 34, TO_DATE('2021-03-02 19:08:10', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (202, 52, 33, TO_DATE('2021-02-06 23:18:28', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (203, 74, 56, TO_DATE('2021-02-08 12:17:38', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (204, 13, 94, TO_DATE('2020-03-13 01:51:39', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (205, 106, 11, TO_DATE('2020-11-12 17:49:35', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (206, 136, 52, TO_DATE('2020-08-08 09:11:24', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (207, 121, 19, TO_DATE('2020-06-17 07:59:05', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (208, 158, 38, TO_DATE('2021-02-07 06:30:07', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (209, 64, 30, TO_DATE('2020-11-25 10:42:36', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (210, 47, 69, TO_DATE('2020-09-03 12:33:08', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (211, 124, 19, TO_DATE('2020-11-29 06:36:35', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (212, 151, 20, TO_DATE('2020-04-18 08:02:54', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (213, 136, 12, TO_DATE('2020-10-16 04:27:16', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (214, 77, 55, TO_DATE('2020-07-28 17:39:18', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (215, 57, 5, TO_DATE('2020-07-04 20:45:02', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (216, 80, 43, TO_DATE('2020-06-13 14:28:54', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (217, 102, 76, TO_DATE('2020-04-08 20:49:53', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (218, 44, 62, TO_DATE('2020-05-04 03:56:02', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (219, 159, 45, TO_DATE('2020-10-24 06:36:09', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (220, 81, 57, TO_DATE('2021-02-08 01:24:06', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (221, 177, 61, TO_DATE('2020-12-02 23:29:56', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (222, 102, 59, TO_DATE('2020-07-26 08:21:53', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (223, 124, 99, TO_DATE('2020-12-04 11:42:59', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (224, 55, 82, TO_DATE('2020-05-28 18:02:53', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (225, 67, 96, TO_DATE('2020-08-01 15:44:33', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (226, 65, 32, TO_DATE('2020-09-02 08:23:12', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (227, 99, 48, TO_DATE('2020-09-08 11:47:46', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (228, 120, 91, TO_DATE('2020-04-13 21:02:19', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (229, 87, 91, TO_DATE('2021-02-12 01:19:45', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (230, 96, 41, TO_DATE('2020-03-21 10:13:16', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (231, 56, 77, TO_DATE('2020-06-06 20:27:41', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (232, 130, 86, TO_DATE('2020-06-29 21:10:08', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (233, 27, 3, TO_DATE('2020-07-25 20:18:25', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (234, 157, 84, TO_DATE('2020-11-27 04:36:03', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (235, 118, 45, TO_DATE('2020-03-13 03:04:47', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (236, 181, 40, TO_DATE('2020-10-06 21:51:20', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (237, 89, 28, TO_DATE('2020-12-28 23:30:11', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (238, 84, 91, TO_DATE('2020-06-04 01:28:11', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (239, 81, 37, TO_DATE('2021-01-01 08:37:35', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (240, 57, 61, TO_DATE('2020-11-05 07:52:07', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (241, 7, 96, TO_DATE('2020-04-18 05:07:41', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (242, 136, 10, TO_DATE('2020-06-17 05:48:05', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (243, 160, 37, TO_DATE('2020-10-25 19:55:06', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (244, 99, 99, TO_DATE('2020-08-10 05:35:28', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (245, 136, 28, TO_DATE('2021-02-17 17:50:18', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (246, 152, 82, TO_DATE('2021-01-09 09:43:07', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (247, 26, 46, TO_DATE('2020-03-10 22:45:00', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (248, 48, 45, TO_DATE('2020-04-06 03:33:09', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (249, 180, 9, TO_DATE('2020-05-10 14:54:14', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (250, 41, 46, TO_DATE('2020-04-04 06:21:35', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (251, 181, 92, TO_DATE('2020-06-30 15:53:44', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (252, 62, 16, TO_DATE('2020-07-24 00:54:33', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (253, 161, 4, TO_DATE('2020-07-31 09:04:53', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (254, 26, 16, TO_DATE('2020-08-31 03:09:12', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (255, 7, 49, TO_DATE('2020-07-29 11:28:37', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (256, 123, 91, TO_DATE('2020-11-13 15:16:19', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (257, 178, 12, TO_DATE('2020-03-23 14:40:01', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (258, 52, 38, TO_DATE('2020-09-17 07:03:08', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (259, 109, 94, TO_DATE('2020-09-08 12:22:07', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (260, 59, 87, TO_DATE('2020-12-10 16:54:20', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (261, 51, 41, TO_DATE('2020-09-12 00:37:22', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (262, 166, 17, TO_DATE('2020-09-23 20:35:26', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (263, 81, 19, TO_DATE('2020-05-03 20:11:44', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (264, 29, 45, TO_DATE('2020-03-11 16:19:48', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (265, 177, 94, TO_DATE('2021-01-28 07:52:38', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (266, 2, 84, TO_DATE('2020-06-19 11:20:02', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (267, 42, 84, TO_DATE('2021-03-06 10:28:41', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (268, 155, 60, TO_DATE('2020-04-07 11:50:48', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (269, 181, 78, TO_DATE('2021-02-26 03:05:56', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (270, 39, 99, TO_DATE('2020-05-28 04:56:33', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (271, 36, 37, TO_DATE('2020-06-06 23:13:54', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (272, 118, 8, TO_DATE('2021-01-25 21:18:26', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (273, 140, 54, TO_DATE('2020-05-02 00:24:21', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (274, 125, 13, TO_DATE('2020-12-18 12:58:53', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (275, 176, 43, TO_DATE('2020-06-07 03:55:48', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (276, 150, 37, TO_DATE('2021-01-22 22:28:37', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (277, 38, 67, TO_DATE('2020-08-11 19:17:35', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (278, 118, 42, TO_DATE('2020-07-29 17:49:08', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (279, 110, 54, TO_DATE('2020-06-28 14:19:53', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (280, 175, 68, TO_DATE('2020-06-18 12:45:56', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (281, 9, 70, TO_DATE('2020-09-15 14:58:49', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (282, 93, 44, TO_DATE('2020-09-17 19:59:28', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (283, 84, 53, TO_DATE('2020-04-16 04:14:00', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (284, 128, 91, TO_DATE('2021-01-11 19:20:13', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (285, 87, 7, TO_DATE('2020-11-25 17:07:25', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (286, 76, 49, TO_DATE('2020-07-26 22:09:13', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (287, 21, 51, TO_DATE('2021-03-06 12:17:06', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (288, 166, 61, TO_DATE('2020-05-08 20:25:08', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (289, 167, 38, TO_DATE('2020-04-18 11:39:03', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (290, 46, 9, TO_DATE('2021-02-04 10:45:50', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (291, 38, 47, TO_DATE('2020-04-11 14:43:51', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (292, 53, 97, TO_DATE('2020-12-04 03:53:13', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (293, 62, 53, TO_DATE('2020-10-15 13:06:39', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (294, 61, 85, TO_DATE('2020-05-17 14:56:26', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (295, 82, 10, TO_DATE('2020-09-21 04:58:13', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (296, 7, 91, TO_DATE('2020-03-21 12:08:00', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (297, 68, 81, TO_DATE('2020-11-20 14:34:13', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (298, 106, 52, TO_DATE('2020-08-01 23:49:24', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (299, 130, 75, TO_DATE('2020-08-19 19:49:10', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (300, 165, 6, TO_DATE('2020-10-25 18:54:55', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (301, 184, 23, TO_DATE('2020-04-02 02:02:51', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (302, 176, 5, TO_DATE('2021-02-18 17:48:25', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (303, 154, 58, TO_DATE('2020-03-28 02:47:11', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (304, 44, 86, TO_DATE('2020-11-16 12:38:06', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (305, 37, 1, TO_DATE('2020-04-26 03:59:40', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (306, 172, 92, TO_DATE('2020-05-12 17:57:13', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (307, 35, 56, TO_DATE('2020-11-09 23:07:12', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (308, 33, 31, TO_DATE('2020-08-29 10:20:31', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (309, 140, 68, TO_DATE('2021-02-16 12:56:02', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (310, 83, 60, TO_DATE('2021-03-02 16:32:42', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (311, 85, 80, TO_DATE('2021-02-02 14:32:23', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (312, 104, 54, TO_DATE('2020-08-28 16:15:49', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (313, 159, 28, TO_DATE('2020-05-16 12:41:11', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (314, 127, 25, TO_DATE('2020-05-11 08:33:11', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (315, 164, 45, TO_DATE('2020-10-21 19:45:17', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (316, 138, 25, TO_DATE('2020-11-30 11:41:52', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (317, 161, 97, TO_DATE('2020-05-03 18:58:07', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (318, 23, 82, TO_DATE('2020-10-13 14:04:51', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (319, 38, 49, TO_DATE('2020-04-14 04:24:57', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (320, 171, 31, TO_DATE('2020-04-17 10:54:38', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (321, 141, 99, TO_DATE('2021-02-19 20:50:51', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (322, 132, 22, TO_DATE('2020-06-14 05:16:17', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (323, 67, 82, TO_DATE('2020-11-13 03:29:45', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (324, 26, 66, TO_DATE('2020-10-04 20:47:07', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (325, 81, 16, TO_DATE('2020-10-30 00:42:51', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (326, 53, 99, TO_DATE('2020-03-23 00:31:55', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (327, 79, 14, TO_DATE('2020-12-13 01:35:16', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (328, 88, 8, TO_DATE('2020-10-09 03:41:08', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (329, 90, 40, TO_DATE('2020-07-04 01:36:29', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (330, 19, 30, TO_DATE('2020-04-18 23:39:40', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (331, 33, 53, TO_DATE('2020-10-25 13:29:36', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (332, 135, 38, TO_DATE('2021-02-15 19:24:33', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (333, 163, 86, TO_DATE('2020-12-30 02:29:35', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (334, 113, 90, TO_DATE('2020-04-29 20:54:58', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (335, 167, 18, TO_DATE('2020-11-04 06:11:42', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (336, 62, 97, TO_DATE('2020-07-23 17:17:59', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (337, 38, 9, TO_DATE('2020-07-06 01:18:23', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (338, 75, 63, TO_DATE('2020-10-22 15:45:02', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (339, 16, 72, TO_DATE('2020-06-12 20:20:11', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (340, 88, 77, TO_DATE('2020-08-22 03:17:48', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (341, 24, 13, TO_DATE('2020-08-14 16:59:18', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (342, 43, 24, TO_DATE('2021-02-17 05:47:52', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (343, 115, 54, TO_DATE('2021-01-12 23:25:48', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (344, 172, 3, TO_DATE('2020-10-29 22:40:08', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (345, 90, 58, TO_DATE('2020-07-06 18:36:24', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (346, 126, 68, TO_DATE('2020-12-18 12:52:23', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (347, 134, 76, TO_DATE('2021-02-10 20:36:09', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (348, 135, 45, TO_DATE('2020-05-13 17:36:29', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (349, 183, 28, TO_DATE('2020-12-01 23:12:43', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (350, 174, 42, TO_DATE('2020-11-01 16:33:58', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (351, 122, 7, TO_DATE('2020-09-08 02:01:44', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (352, 152, 14, TO_DATE('2021-01-11 22:22:01', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (353, 147, 70, TO_DATE('2021-02-05 07:48:53', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (354, 122, 51, TO_DATE('2020-04-23 17:32:39', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (355, 33, 95, TO_DATE('2020-07-16 09:50:37', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (356, 106, 61, TO_DATE('2020-09-11 02:38:49', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (357, 13, 23, TO_DATE('2020-06-05 23:46:15', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (358, 110, 67, TO_DATE('2020-12-03 01:09:40', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (359, 80, 68, TO_DATE('2020-09-03 09:56:44', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (360, 101, 9, TO_DATE('2021-02-26 11:31:48', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (361, 139, 74, TO_DATE('2020-09-27 16:02:13', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (362, 22, 48, TO_DATE('2020-04-04 21:12:32', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (363, 160, 70, TO_DATE('2020-08-11 09:38:59', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (364, 79, 20, TO_DATE('2020-12-12 00:14:09', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (365, 164, 98, TO_DATE('2020-06-29 06:58:16', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (366, 39, 21, TO_DATE('2020-08-12 03:01:19', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (367, 93, 94, TO_DATE('2021-02-11 18:27:21', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (368, 83, 42, TO_DATE('2021-01-08 13:36:12', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (369, 3, 98, TO_DATE('2020-12-23 19:05:16', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (370, 165, 15, TO_DATE('2020-06-24 11:01:48', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (371, 172, 53, TO_DATE('2021-02-18 02:32:21', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (372, 112, 81, TO_DATE('2021-02-22 11:18:50', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (373, 74, 12, TO_DATE('2021-01-14 14:46:32', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (374, 71, 23, TO_DATE('2020-05-26 18:34:05', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (375, 181, 40, TO_DATE('2020-11-26 05:27:07', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (376, 87, 42, TO_DATE('2020-10-23 21:24:57', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (377, 156, 58, TO_DATE('2020-06-04 01:06:41', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (378, 174, 99, TO_DATE('2020-03-24 03:23:47', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (379, 73, 34, TO_DATE('2020-05-29 07:40:33', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (380, 50, 23, TO_DATE('2020-03-20 23:51:39', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (381, 27, 80, TO_DATE('2020-03-31 07:21:32', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (382, 125, 21, TO_DATE('2020-05-31 20:24:45', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (383, 2, 28, TO_DATE('2020-11-27 08:48:13', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (384, 43, 44, TO_DATE('2020-05-19 09:46:38', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (385, 87, 35, TO_DATE('2020-04-28 05:38:29', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (386, 53, 93, TO_DATE('2020-05-22 22:40:53', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (387, 133, 98, TO_DATE('2020-11-10 20:16:10', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (388, 184, 48, TO_DATE('2021-02-11 13:48:17', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (389, 41, 79, TO_DATE('2020-08-01 21:00:20', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (390, 91, 33, TO_DATE('2020-10-24 04:24:17', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (391, 80, 2, TO_DATE('2021-01-23 17:33:12', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (392, 69, 28, TO_DATE('2021-01-16 15:30:58', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (393, 162, 47, TO_DATE('2021-02-07 14:17:16', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (394, 181, 7, TO_DATE('2020-07-06 07:30:45', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (395, 159, 5, TO_DATE('2021-02-06 05:20:07', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (396, 175, 19, TO_DATE('2020-09-13 10:34:34', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (397, 103, 78, TO_DATE('2021-02-20 17:25:40', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (398, 152, 70, TO_DATE('2020-07-25 13:27:39', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (399, 42, 28, TO_DATE('2020-09-28 04:44:54', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (400, 109, 61, TO_DATE('2020-11-19 03:29:10', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (401, 82, 45, TO_DATE('2020-09-08 00:25:44', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (402, 49, 7, TO_DATE('2020-09-03 22:29:35', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (403, 23, 75, TO_DATE('2020-09-06 03:22:42', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (404, 172, 84, TO_DATE('2021-02-27 06:22:45', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (405, 138, 84, TO_DATE('2020-11-21 15:51:03', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (406, 82, 57, TO_DATE('2021-01-06 12:12:12', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (407, 144, 4, TO_DATE('2020-08-14 05:11:30', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (408, 114, 5, TO_DATE('2020-12-05 03:26:00', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (409, 129, 80, TO_DATE('2020-04-13 16:38:13', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (410, 83, 74, TO_DATE('2020-06-20 14:23:12', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (411, 129, 14, TO_DATE('2021-02-13 10:35:23', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (412, 133, 13, TO_DATE('2020-06-21 13:06:15', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (413, 101, 10, TO_DATE('2020-07-21 09:11:23', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (414, 6, 85, TO_DATE('2021-01-24 19:46:53', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (415, 110, 8, TO_DATE('2021-02-25 09:45:24', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (416, 10, 42, TO_DATE('2021-03-01 23:22:30', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (417, 84, 39, TO_DATE('2020-05-11 02:19:01', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (418, 123, 74, TO_DATE('2021-03-02 18:56:46', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (419, 119, 9, TO_DATE('2020-08-11 02:59:45', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (420, 176, 67, TO_DATE('2020-06-08 17:22:19', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (421, 95, 37, TO_DATE('2021-02-18 15:55:44', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (422, 30, 86, TO_DATE('2020-11-16 00:49:57', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (423, 91, 15, TO_DATE('2020-07-25 03:21:40', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (424, 87, 85, TO_DATE('2020-11-23 11:16:30', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (425, 157, 61, TO_DATE('2021-01-28 02:33:38', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (426, 108, 16, TO_DATE('2020-10-21 08:26:49', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (427, 127, 26, TO_DATE('2020-09-23 10:44:27', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (428, 22, 85, TO_DATE('2020-05-10 04:01:02', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (429, 144, 13, TO_DATE('2020-04-10 23:26:26', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (430, 82, 52, TO_DATE('2020-08-20 06:23:10', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (431, 87, 24, TO_DATE('2020-08-17 23:07:01', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (432, 136, 82, TO_DATE('2020-05-19 17:31:21', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (433, 7, 86, TO_DATE('2020-11-11 23:05:34', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (434, 125, 23, TO_DATE('2020-10-27 18:51:47', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (435, 22, 21, TO_DATE('2020-08-27 07:28:53', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (436, 22, 89, TO_DATE('2020-09-23 00:25:36', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (437, 47, 57, TO_DATE('2020-12-02 13:33:00', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (438, 114, 81, TO_DATE('2020-07-12 01:16:43', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (439, 96, 29, TO_DATE('2020-10-15 06:36:29', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (440, 30, 77, TO_DATE('2020-11-24 11:33:24', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (441, 59, 22, TO_DATE('2020-08-08 05:16:46', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (442, 15, 23, TO_DATE('2020-08-15 11:26:22', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (443, 41, 4, TO_DATE('2020-08-15 03:28:03', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (444, 18, 20, TO_DATE('2020-10-08 04:01:04', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (445, 104, 56, TO_DATE('2020-04-18 11:17:26', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (446, 130, 32, TO_DATE('2020-06-06 18:16:27', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (447, 108, 27, TO_DATE('2020-12-19 18:47:35', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (448, 71, 15, TO_DATE('2020-04-03 16:24:30', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (449, 21, 64, TO_DATE('2020-04-15 12:18:11', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (450, 27, 69, TO_DATE('2020-12-09 06:16:13', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (451, 126, 13, TO_DATE('2020-08-17 12:48:30', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (452, 75, 44, TO_DATE('2020-05-01 23:23:32', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (453, 76, 60, TO_DATE('2020-10-17 23:20:38', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (454, 132, 93, TO_DATE('2020-11-25 11:19:08', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (455, 166, 20, TO_DATE('2020-08-02 04:42:07', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (456, 38, 67, TO_DATE('2020-10-18 01:11:07', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (457, 64, 89, TO_DATE('2020-09-08 23:44:34', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (458, 99, 97, TO_DATE('2020-03-29 22:37:31', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (459, 84, 28, TO_DATE('2021-01-09 00:07:27', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (460, 103, 82, TO_DATE('2020-09-28 18:37:48', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (461, 51, 37, TO_DATE('2020-11-30 15:55:17', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (462, 167, 89, TO_DATE('2020-10-26 14:12:31', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (463, 171, 59, TO_DATE('2020-07-30 05:28:40', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (464, 117, 93, TO_DATE('2020-09-07 05:28:15', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (465, 54, 30, TO_DATE('2020-04-05 15:30:55', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (466, 40, 40, TO_DATE('2020-07-03 18:04:10', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (467, 144, 69, TO_DATE('2020-07-18 14:10:27', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (468, 95, 99, TO_DATE('2020-06-25 18:33:01', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (469, 54, 80, TO_DATE('2020-12-26 05:33:15', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (470, 136, 20, TO_DATE('2020-07-21 04:22:31', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (471, 153, 47, TO_DATE('2020-07-31 01:04:04', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (472, 9, 89, TO_DATE('2020-10-16 21:16:10', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (473, 182, 65, TO_DATE('2021-02-26 18:36:19', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (474, 47, 24, TO_DATE('2020-10-02 22:33:49', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (475, 103, 66, TO_DATE('2021-02-22 23:37:40', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (476, 15, 64, TO_DATE('2020-03-15 07:11:45', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (477, 10, 99, TO_DATE('2020-12-12 01:16:44', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (478, 170, 79, TO_DATE('2020-11-23 20:41:55', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (479, 110, 96, TO_DATE('2021-01-04 19:23:06', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (480, 3, 96, TO_DATE('2021-01-19 09:07:00', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (481, 6, 21, TO_DATE('2020-03-26 17:02:26', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (482, 184, 8, TO_DATE('2020-11-25 19:38:45', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (483, 129, 74, TO_DATE('2020-09-29 01:50:40', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (484, 77, 66, TO_DATE('2020-10-08 22:02:55', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (485, 24, 26, TO_DATE('2020-10-20 20:52:01', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (486, 137, 3, TO_DATE('2020-03-12 03:48:45', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (487, 134, 45, TO_DATE('2020-05-08 19:38:15', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (488, 151, 10, TO_DATE('2020-12-19 21:22:05', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (489, 106, 16, TO_DATE('2020-10-07 01:41:07', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (490, 139, 47, TO_DATE('2020-05-05 20:57:08', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (491, 125, 6, TO_DATE('2020-08-15 17:39:59', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (492, 125, 13, TO_DATE('2020-03-31 00:05:39', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (493, 60, 75, TO_DATE('2020-03-09 20:17:08', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (494, 7, 63, TO_DATE('2021-01-04 08:36:16', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (495, 146, 64, TO_DATE('2021-03-04 04:28:41', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (496, 138, 97, TO_DATE('2020-06-27 11:39:00', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (497, 15, 96, TO_DATE('2020-12-02 11:21:08', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (498, 125, 67, TO_DATE('2020-12-03 18:15:43', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (499, 82, 10, TO_DATE('2020-07-18 02:59:30', 'yyyy-mm-dd hh24:mi:ss'))
+    into CARTS values (500, 152, 9, TO_DATE('2020-10-12 06:18:07', 'yyyy-mm-dd hh24:mi:ss'))
+select * from dual;
