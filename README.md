@@ -7,7 +7,7 @@ MUCHAMMAD ALFI KAROM - 1301190363
 MUHAMAD ELANG RAMADHAN - 1301190458
 
 TUGAS 3
-Pada tugas ini kami membuat 3 tabel beserta isinya dan query untuk menampilkan data 
+Pada tugas ini kami membuat 3 tabel beserta isinya dan query untuk menampilkan data
 query 1 (non-key 1 tabel)
 ![](https://drive.google.com/uc?id=17J1rhrr5ZoEyLfHhtqdHl9qR_dlrX6Hz)
 query 2 (non-key 2 tabel)
