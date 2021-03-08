@@ -4,7 +4,7 @@ CREATE TABLE PRODUCTS(
     price float(2) NOT NULL,
     price_currency char(3) NOT NULL,
     stock int NOT NULL
-)
+);
 
 CREATE TABLE CUSTOMERS(
     customer_id int NOT NULL PRIMARY KEY,
@@ -12,11 +12,11 @@ CREATE TABLE CUSTOMERS(
     email varchar(255),
     phone_number varchar(255),
     address varchar(255)
-)
+);
 
 CREATE TABLE CARTS(
     cart_id int NOT NULL PRIMARY KEY,
     product_id int REFERENCES PRODUCTS(product_id),
     customer_id int REFERENCES CUSTOMERS(customer_id),
     created_at date
-)
+);
