@@ -60,20 +60,24 @@ WHERE CUSTOMERS.name = 'Ally Battyll';
 > **query 4 (key 2 tabel)<a name="query4"></a>**
 
 ```sql
-SELECT PRODUCTS.title, CARTS.created_at FROM PRODUCTS, CARTS
-WHERE PRODUCTS.product_id = 56 AND (CARTS.created_at between to_date('2021-01-01 00:00:00', 'YYYY-DD-MM HH24:MI:SS') and sysdate);
+SELECT PRODUCTS.title, PRODUCTS.price, PRODUCTS.price_currency, CARTS.created_at FROM CARTS 
+INNER JOIN PRODUCTS ON PRODUCTS.product_id = carts.product_id
+WHERE PRODUCTS.product_id = 1 
+AND (CARTS.created_at between to_date('2021-01-01 00:00:00', 'YYYY-DD-MM HH24:MI:SS') and sysdate);
 ```
 
-![query 4 (key 2 tabel)](https://user-images.githubusercontent.com/48755707/110774214-230eb500-8290-11eb-8cab-514f4d2098bf.png)
+![query 4 (key 2 tabel)](https://user-images.githubusercontent.com/48755707/110805266-8100c400-82b3-11eb-8e33-6215e303479b.png)
 
 > **query 5 (key 3 tabel)<a name="query5"></a>**
 
 ```sql
-SELECT CUSTOMERS.name, CUSTOMERS.address, PRODUCTS.title, CARTS.created_at FROM CUSTOMERS, PRODUCTS, CARTS
-WHERE CUSTOMERS.customer_id = 15 AND PRODUCTS.product_id = 80;
+SELECT CUSTOMERS.name, CUSTOMERS.address, PRODUCTS.title, CARTS.created_at FROM CARTS 
+INNER JOIN  PRODUCTS ON PRODUCTS.product_id = CARTS.product_id 
+INNER JOIN CUSTOMERS ON CUSTOMERS.customer_id = CARTS.customer_id
+WHERE CUSTOMERS.customer_id = 15 AND PRODUCTS.product_id = 71;
 ```
 
-![query 5 (key 3 tabel)](https://user-images.githubusercontent.com/48755707/110774260-2efa7700-8290-11eb-8d7d-259c1cda776f.png)
+![query 5 (key 3 tabel)](https://user-images.githubusercontent.com/48755707/110805341-9118a380-82b3-11eb-96bc-7d0e843ec127.png)
 
 ## Tugas 2<a name="tugas2"></a> ##
 Menambahkan Index
@@ -123,17 +127,21 @@ WHERE CUSTOMERS.name = 'Ally Battyll';
 > **query 4 with index (key 2 tabel)<a name="query4index">**
 
 ```sql
-SELECT PRODUCTS.title, CARTS.created_at FROM PRODUCTS, CARTS
-WHERE PRODUCTS.product_id = 56 AND (CARTS.created_at between to_date('2021-01-01 00:00:00', 'YYYY-DD-MM HH24:MI:SS') and sysdate);
+SELECT PRODUCTS.title, PRODUCTS.price, PRODUCTS.price_currency, CARTS.created_at FROM CARTS 
+INNER JOIN PRODUCTS ON PRODUCTS.product_id = carts.product_id
+WHERE PRODUCTS.product_id = 1 
+AND (CARTS.created_at between to_date('2021-01-01 00:00:00', 'YYYY-DD-MM HH24:MI:SS') and sysdate);
 ```
 
-![query 4 with index (key 2 tabel)](https://user-images.githubusercontent.com/48755707/110774421-5ea97f00-8290-11eb-9f02-26d3803f8cb2.png)
+![query 4 with index (key 2 tabel)](https://user-images.githubusercontent.com/48755707/110805432-a7266400-82b3-11eb-922d-c75bf5c745b3.png)
 
 > **query 5 with index (key 3 tabel)<a name="query5index">**
 
 ```sql
-SELECT CUSTOMERS.name, CUSTOMERS.address, PRODUCTS.title, CARTS.created_at FROM CUSTOMERS, PRODUCTS, CARTS
-WHERE CUSTOMERS.customer_id = 15 AND PRODUCTS.product_id = 80;
+SELECT CUSTOMERS.name, CUSTOMERS.address, PRODUCTS.title, CARTS.created_at FROM CARTS 
+INNER JOIN  PRODUCTS ON PRODUCTS.product_id = CARTS.product_id 
+INNER JOIN CUSTOMERS ON CUSTOMERS.customer_id = CARTS.customer_id
+WHERE CUSTOMERS.customer_id = 15 AND PRODUCTS.product_id = 71;
 ```
 
-![query 5 with index (key 3 tabel)](https://user-images.githubusercontent.com/48755707/110774459-6832e700-8290-11eb-873e-8fab514c9282.png)
+![uery 5 with index (key 3 tabel)](https://user-images.githubusercontent.com/48755707/110805519-bb6a6100-82b3-11eb-9d22-dbba72a0d145.png)
