@@ -20,10 +20,10 @@ Pada tugas ini kami membuat 3 tabel beserta isinya dan query untuk menampilkan d
 
 ```sql
 SELECT * FROM PRODUCTS
-WHERE price < 1000;
+WHERE price < 1000 AND price_currency = 'USD';
 ```
 
-![](https://drive.google.com/uc?id=17J1rhrr5ZoEyLfHhtqdHl9qR_dlrX6Hz)
+![](https://drive.google.com/uc?id=1ohgHmljgXpQddft3O2tIxZ_OaKq7vxVa)
 
 > **query 2 (non-key 2 tabel)**
 
@@ -32,7 +32,7 @@ SELECT * FROM CUSTOMERS, CARTS
 WHERE CUSTOMERS.name = 'Kit McLese';
 ```
 
-![](https://drive.google.com/uc?id=1UHeNXh6bi7uxFS6Xpe_H1SDiTItGslAD)
+![](https://drive.google.com/uc?id=15PhpzZuVosItUeOAKRe0CCvPrcLnym_u)
 
 > **query 3 (non-key 3 tabel)**
 
@@ -41,7 +41,7 @@ SELECT CUSTOMERS.name, CUSTOMERS.address, PRODUCTS.title, CARTS.created_at FROM 
 WHERE CUSTOMERS.name = 'Ally Battyll';
 ```
 
-![](https://drive.google.com/uc?id=1KYTpThYJgPoWXjtFrZHaeOloI5Bn7dEV)
+![](https://drive.google.com/uc?id=1TRVAr7vo_pkGbUxtv06FuOjrNHwaCbLF)
 
 > **query 4 (key 2 tabel)**
 
@@ -50,7 +50,7 @@ SELECT PRODUCTS.title, CARTS.created_at FROM PRODUCTS, CARTS
 WHERE PRODUCTS.product_id = 56 AND (CARTS.created_at between to_date('2021-01-01 00:00:00', 'YYYY-DD-MM HH24:MI:SS') and sysdate);
 ```
 
-![](https://drive.google.com/uc?id=1DXs7JOjMS160etv9RTEK3P3zm4dMSWPO)
+![](https://drive.google.com/uc?id=1600k01XUxtfPb9QymmDCyUqaHQuJmzkS)
 
 > **query 5 (key 3 tabel)**
 
@@ -59,4 +59,4 @@ SELECT CUSTOMERS.name, CUSTOMERS.address, PRODUCTS.title, CARTS.created_at FROM 
 WHERE CUSTOMERS.customer_id = 15 AND PRODUCTS.product_id = 80;
 ```
 
-![](https://drive.google.com/uc?id=1KUZnnJRWz_p2pXrnFLBPFILJd4y_kQJ8)
+![](https://drive.google.com/uc?id=1Fufz0C-cR6QBdBM7dfgh8rOrWKhi1NPt)
