@@ -1,5 +1,5 @@
 SELECT * FROM PRODUCTS
-WHERE price < 1000;
+WHERE price < 1000 AND price_currency = 'USD';
 
 SELECT * FROM CUSTOMERS, CARTS
 WHERE CUSTOMERS.name = 'Kit McLese';
