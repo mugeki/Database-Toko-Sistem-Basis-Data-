@@ -28,7 +28,7 @@ Pada tugas ini kami membuat 3 tabel beserta isinya dan query untuk menampilkan d
 
 > **Database Model<a name="model"></a>**
 
-![](https://drive.google.com/uc?id=1ek6i6rtwqrs64PB61RWASEM7d_uBWzhT)
+![Database Model](https://drive.google.com/uc?id=1ek6i6rtwqrs64PB61RWASEM7d_uBWzhT)
 
 > **query 1 (non-key 1 tabel)<a name="query1"></a>**
 
@@ -37,7 +37,7 @@ SELECT * FROM PRODUCTS
 WHERE price < 1000 AND price_currency = 'USD';
 ```
 
-![](https://drive.google.com/uc?id=1ohgHmljgXpQddft3O2tIxZ_OaKq7vxVa)
+![query 1 (non-key 1 tabel)](https://drive.google.com/uc?id=1ohgHmljgXpQddft3O2tIxZ_OaKq7vxVa)
 
 > **query 2 (non-key 2 tabel)<a name="query2"></a>**
 
@@ -46,7 +46,7 @@ SELECT * FROM CUSTOMERS, CARTS
 WHERE CUSTOMERS.name = 'Kit McLese';
 ```
 
-![](https://drive.google.com/uc?id=15PhpzZuVosItUeOAKRe0CCvPrcLnym_u)
+![query 2 (non-key 2 tabel)](https://drive.google.com/uc?id=15PhpzZuVosItUeOAKRe0CCvPrcLnym_u)
 
 > **query 3 (non-key 3 tabel)<a name="query3"></a>**
 
@@ -55,7 +55,7 @@ SELECT CUSTOMERS.name, CUSTOMERS.address, PRODUCTS.title, CARTS.created_at FROM 
 WHERE CUSTOMERS.name = 'Ally Battyll';
 ```
 
-![](https://drive.google.com/uc?id=1TRVAr7vo_pkGbUxtv06FuOjrNHwaCbLF)
+![query 3 (non-key 3 tabel)](https://drive.google.com/uc?id=1TRVAr7vo_pkGbUxtv06FuOjrNHwaCbLF)
 
 > **query 4 (key 2 tabel)<a name="query4"></a>**
 
@@ -64,7 +64,7 @@ SELECT PRODUCTS.title, CARTS.created_at FROM PRODUCTS, CARTS
 WHERE PRODUCTS.product_id = 56 AND (CARTS.created_at between to_date('2021-01-01 00:00:00', 'YYYY-DD-MM HH24:MI:SS') and sysdate);
 ```
 
-![](https://drive.google.com/uc?id=1600k01XUxtfPb9QymmDCyUqaHQuJmzkS)
+![query 4 (key 2 tabel)](https://drive.google.com/uc?id=1600k01XUxtfPb9QymmDCyUqaHQuJmzkS)
 
 > **query 5 (key 3 tabel)<a name="query5"></a>**
 
@@ -73,7 +73,7 @@ SELECT CUSTOMERS.name, CUSTOMERS.address, PRODUCTS.title, CARTS.created_at FROM 
 WHERE CUSTOMERS.customer_id = 15 AND PRODUCTS.product_id = 80;
 ```
 
-![](https://drive.google.com/uc?id=1Fufz0C-cR6QBdBM7dfgh8rOrWKhi1NPt)
+![query 5 (key 3 tabel)](https://drive.google.com/uc?id=1Fufz0C-cR6QBdBM7dfgh8rOrWKhi1NPt)
 
 ## Tugas 2<a name="tugas2"></a> ##
 Menambahkan Index
@@ -100,7 +100,7 @@ SELECT * FROM PRODUCTS
 WHERE price < 1000 AND price_currency = 'USD';
 ```
 
-![](https://drive.google.com/uc?id=1ALDaIMjKuigCCkb0_nHaGaGZVNTJzPc9)
+![query 1 with index (non-key 1 tabel)](https://drive.google.com/uc?id=1ALDaIMjKuigCCkb0_nHaGaGZVNTJzPc9)
 
 > **query 2 with index (non-key 2 tabel)<a name="query2index">**
 
@@ -109,7 +109,7 @@ SELECT * FROM CUSTOMERS, CARTS
 WHERE CUSTOMERS.name = 'Kit McLese';
 ```
 
-![](https://drive.google.com/uc?id=12PCK5lMPIJPwIvvjeDH3TCuxSak-j2an)
+![query 2 with index (non-key 2 tabel)](https://drive.google.com/uc?id=12PCK5lMPIJPwIvvjeDH3TCuxSak-j2an)
 
 > **query 3 with index (non-key 3 tabel)<a name="query3index">**
 
@@ -118,7 +118,7 @@ SELECT CUSTOMERS.name, CUSTOMERS.address, PRODUCTS.title, CARTS.created_at FROM 
 WHERE CUSTOMERS.name = 'Ally Battyll';
 ```
 
-![](https://drive.google.com/uc?id=1I3Y2tkzP3VVGre2NwV9nnZuwjNtUE7JW)
+![query 3 with index (non-key 3 tabel)](https://drive.google.com/uc?id=1I3Y2tkzP3VVGre2NwV9nnZuwjNtUE7JW)
 
 > **query 4 with index (key 2 tabel)<a name="query4index">**
 
@@ -127,7 +127,7 @@ SELECT PRODUCTS.title, CARTS.created_at FROM PRODUCTS, CARTS
 WHERE PRODUCTS.product_id = 56 AND (CARTS.created_at between to_date('2021-01-01 00:00:00', 'YYYY-DD-MM HH24:MI:SS') and sysdate);
 ```
 
-![](https://drive.google.com/uc?id=1yvGT1cWwk5V_S4qLudAKdak880y79nk_)
+![query 4 with index (key 2 tabel)](https://drive.google.com/uc?id=1yvGT1cWwk5V_S4qLudAKdak880y79nk_)
 
 > **query 5 with index (key 3 tabel)<a name="query5index">**
 
@@ -136,4 +136,4 @@ SELECT CUSTOMERS.name, CUSTOMERS.address, PRODUCTS.title, CARTS.created_at FROM 
 WHERE CUSTOMERS.customer_id = 15 AND PRODUCTS.product_id = 80;
 ```
 
-![](https://drive.google.com/uc?id=1nLS4WwSub-3PELHqm5wTh5dvcaYqsuVr)
+![query 5 with index (key 3 tabel)](https://drive.google.com/uc?id=1nLS4WwSub-3PELHqm5wTh5dvcaYqsuVr)
