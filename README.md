@@ -113,7 +113,7 @@ SELECT * FROM CUSTOMERS, CARTS
 WHERE CUSTOMERS.name = 'Kit McLese';
 ```
 
-![query 2 with index (non-key 2 tabel)](https://user-images.githubusercontent.com/48755707/110774339-476a9180-8290-11eb-8598-72175c5a42af.png)
+![query 2 with index (non-key 2 tabel)](https://user-images.githubusercontent.com/48755707/110932016-80bd0300-835d-11eb-8b87-8711b44bbaf9.png)
 
 > **query 3 with index (non-key 3 tabel)<a name="query3index">**
 
